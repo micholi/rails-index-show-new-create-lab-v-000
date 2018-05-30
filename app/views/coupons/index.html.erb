@@ -1,3 +1,4 @@
 <% @coupons.each do |coupon| %>
-<%= coupon %>
+<%= link_to coupon, coupon_path(coupon) %>
+<div><%= link_to student.to_s, student_path(student) %></div>
 <% end %>
